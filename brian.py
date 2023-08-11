@@ -5,6 +5,7 @@ import streamlit as st
 st.set_page_config(
     page_title="Brian",
     initial_sidebar_state="expanded",
+    layout="centered"
 )
 
 # Class for BMI calculation
