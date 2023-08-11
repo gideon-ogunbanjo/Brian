@@ -43,3 +43,6 @@ obj = Calculation()
 if st.button("Calculate BMI"):
     # Call the BMICalculator method and display the results
     obj.BMICalculator(Height, Mass)
+    
+link='Created by [Gideon Ogunbanjo](https://gideonogunbanjo.netlify.app)'
+st.markdown(link,unsafe_allow_html=True)
