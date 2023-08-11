@@ -1,6 +1,12 @@
 # importing libraries
 import streamlit as st
 
+# Welcome Page and Page Configuration
+st.set_page_config(
+    page_title="Brian",
+    initial_sidebar_state="expanded",
+)
+
 # Class for BMI calculation
 class Calculation:
     def BMICalculator(self, Height, Mass):
