@@ -20,3 +20,18 @@ class Calculation:
                 # Displays the calculated BMI and the corresponding category
                 st.write("Your BMI is", BMI, " The individual is:", t2)
                 break
+            
+# Set title for the Streamlit app
+st.title("Brain - Body Mass Index Analyzer and Interpreter ")
+
+# Input fields for height and weight
+Height = st.number_input("Enter Height (m)", step=0.01)
+Mass = st.number_input("Enter Weight (kg)", step=0.01)
+
+# Instance of the Calculation class
+obj = Calculation()
+
+# Button to calculate BMI
+if st.button("Calculate BMI"):
+    # Call the BMICalculator method and display the results
+    obj.BMICalculator(Height, Mass)
