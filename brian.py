@@ -29,7 +29,7 @@ class Calculation:
                 break
             
 # Set title for the Streamlit app
-st.title("Briann - Body Mass Index Analyzer and Interpreter ")
+st.title("Brian - Body Mass Index Analyzer and Interpreter ")
 st.write("Brian is an app that calculates individuals Body Mass Index using Height and Weight.")
 st.header("Enter your parameters below: ")
 
@@ -47,7 +47,7 @@ if st.button("Calculate BMI"):
     
     
     
-st.write("Brian is a failed version of my original model. ModelX is a standard runway supermodel prediction model that uses BMI and other physical attributes to calculate individuals compatibility with runway modeling.") 
+st.write("Brian is the beta version of ModelX. A standard runway supermodel prediction model that uses BMI and other physical attributes to calculate individuals compatibility with runway modeling.") 
 modelX='Test [ModelX](https://modelx.streamlit.app/)'
 st.markdown(modelX,unsafe_allow_html=True)
 link='Created by [Gideon Ogunbanjo](https://gideonogunbanjo.netlify.app)'
