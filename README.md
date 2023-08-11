@@ -9,7 +9,7 @@ Brian is an interactive Streamlit app that calculates an individual's Body Mass 
 - Determines BMI category based on predefined ranges for different categories.
 - Provides an interpretation of the calculated BMI category.
 - Includes a button to trigger the BMI calculation.
-- Integration with ModelX, a supermodel prediction model.
+- Preliminary integration with ModelX, a supermodel prediction model.
 ### How to Use
 - Access the Brian app by running the Streamlit app locally or deploying it to a server.
 - Enter your height in meters and weight in kilograms in the respective input fields.
