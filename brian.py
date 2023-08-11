@@ -54,7 +54,7 @@ if st.button("Calculate BMI"):
         obj.BMICalculator(Height, Mass)
 
 # Information about Brian and ModelX
-st.write("Brian is the beta version of ModelX. A standard runway supermodel prediction model that uses BMI and other physical attributes to calculate individuals compatibility with runway modeling.")
+st.write("Brian is the sub-version of ModelX. A standard runway supermodel prediction model that uses BMI and other physical attributes to calculate individuals compatibility with runway modeling.")
 modelX = 'Test [ModelX](https://modelx.streamlit.app/)'
 st.markdown(modelX, unsafe_allow_html=True)
 
