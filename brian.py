@@ -16,12 +16,12 @@ class Calculation:
         
         # Defines BMI categories and corresponding descriptions
         for t1, t2 in [
-            (16, "Severely underweight"),
+            (16, "Extremely underweight"),
             (18.5, "Underweight"),
             (25, "Normal"),
             (30, "Overweight"),
             (35, "Moderately obese"),
-            (float("inf"), "Severely obese"),
+            (float("inf"), "Extremely obese"),
         ]:
             if BMI <= t1:
                 # Displays the calculated BMI and the corresponding category
