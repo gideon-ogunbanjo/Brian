@@ -44,5 +44,10 @@ if st.button("Calculate BMI"):
     # Call the BMICalculator method and display the results
     obj.BMICalculator(Height, Mass)
     
+    
+    
+st.write("Brian is a failed version of my original model. ModelX is a standard runway supermodel prediction model that uses BMI and other physical attributes to calculate individuals compatibility with runway modeling.") 
+modelX='Test [ModelX](https://modelx.streamlit.app/)'
+st.markdown(modelX,unsafe_allow_html=True)
 link='Created by [Gideon Ogunbanjo](https://gideonogunbanjo.netlify.app)'
 st.markdown(link,unsafe_allow_html=True)
