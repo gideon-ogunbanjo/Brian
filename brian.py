@@ -22,7 +22,9 @@ class Calculation:
                 break
             
 # Set title for the Streamlit app
-st.title("Brain - Body Mass Index Analyzer and Interpreter ")
+st.title("Briann - Body Mass Index Analyzer and Interpreter ")
+st.write("Brian is an app that calculates individuals Body Mass Index using Height and Weight.")
+st.header("Enter your parameters below: ")
 
 # Input fields for height and weight
 Height = st.number_input("Enter Height (m)", step=0.01)
