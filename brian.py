@@ -19,17 +19,20 @@ class Calculation:
         BMI = Mass / (Height * Height)
         
         # Defines BMI categories and corresponding descriptions
-        for t1, t2 in [
-            (16, "Extremely underweight"),
-            (18.5, "Underweight"),
-            (25, "Normal"),
-            (30, "Overweight"),
-            (35, "Moderately obese"),
-            (float("inf"), "Extremely obese"),
-        ]:
+        bmi_categories = [
+            (16, "Extremely underweight", "You are at a significantly low weight. Consider consulting a healthcare professional."),
+            (18.5, "Underweight", "Your weight is below the healthy range. Focus on a balanced diet and exercise."),
+            (25, "Normal Weight", "Congratulations! Your weight falls within the healthy range."),
+            (30, "Overweight", "Your weight is above the healthy range. Consider adopting healthier habits."),
+            (35, "Moderately obese", "Your weight is in the obese range. It's important to prioritize your health."),
+            (float("inf"), "Extremely obese", "Your weight is at a level of extreme obesity. Seek guidance from a healthcare provider.")
+        ]
+        
+        for t1, t2, t3 in bmi_categories:
             if BMI <= t1:
-                # Displays the calculated BMI and the corresponding category
-                st.write("Your BMI is", BMI, " The individual is:", t2)
+                # Displays the calculated BMI, the corresponding category, and an informative description
+                st.write("Your BMI is", BMI, "Status:", t2)
+                st.write(t3)
                 break
 
 # Set title for the Streamlit app
